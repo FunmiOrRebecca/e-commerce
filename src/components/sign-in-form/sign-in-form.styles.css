@@ -1,0 +1,162 @@
+.sign-in-container{
+    background-color: #fff;
+    width: 500px;
+    padding: 3rem;
+    border-radius: 6px;
+    
+}
+.sign-in-title{
+    font-size: 2.8rem;
+   font-weight: 600;
+   text-align: center;
+    
+}
+form{
+    margin-top: 2.8rem;
+}
+
+.form-input{
+    display: block;
+    background: none;
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1.4rem;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    margin: 1.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    
+}
+.form-input:focus{
+    border-bottom: 2px solid #212121;
+    /* opacity: 0.4; */
+}
+.label-input{
+    position: relative;
+
+}
+
+.eye-icon{
+    font-size: 2.4rem;
+    opacity: 0.7;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.forgot-pass-con{
+    text-align: center;
+    margin-top: 1.2rem;
+    
+}
+.forgot-password{
+    color: #F5B216;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: all 0.3s ease ;
+    margin-top: 1.4rem;
+}
+.log-in{
+    background-color: #F5B216;
+    color: #212121;
+    height: 40px;
+    border: none;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0 1.6rem;
+    font-size: 1.6rem;
+    color: #d4d4d4;
+   
+}
+.log-in:hover{
+    background-color: red;
+}
+.log-in-facebook{
+    background-color: #4267b2;
+    color: #fff;
+
+}
+.log-in-google,
+.log-in-facebook{
+    border: 1px solid #CACACA;
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+     width: 50%;
+    position: relative;
+}
+.facebook-icon{
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.facebook-icon,
+.google-icon{
+    width: 1.4rem;
+    height: 1.4rem;
+    font-size: 1.4rem;
+    color: #0171d3;
+    position: absolute; 
+    top: 50%;
+    left: 3px;  
+    transform: translateY(-50%);
+
+}
+.btn-container{
+    display: flex;
+    width: 100%;
+    gap: 1.8rem;
+}
+.sign-in, .sign-in-google{
+    /* color: red;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding: 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #ebeef1; */
+    /* box-shadow:  inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset  -10px -10px 10px -1px rgba(255, 255, 255, 0.70); */
+
+}
+.sign-in{
+    /* padding: 2rem 4rem;
+    margin-right: 5rem;
+    */
+} 

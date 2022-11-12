@@ -1,0 +1,22 @@
+
+.category-preview{
+    display: flex;
+    min-width: 180px;
+     /* max-width: 250px;  */
+    
+     /* flex: 0 1 auto; */
+    flex-wrap: nowrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(180px, auto)); */
+    gap: 1.6rem;
+    padding: 0 1.6rem 2rem 1.6rem;
+    margin-bottom: 4.8rem;
+    border-bottom: 1px solid transparent;
+    /* border-image:  linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    border-image: linear-gradient(0.25turn, rgba(255, 249,34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
+    border-image-slice: 1;
+    width: 100%;
+}
+
+    
+ 
+    

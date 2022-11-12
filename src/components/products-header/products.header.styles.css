@@ -1,0 +1,18 @@
+.products-header-container{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 1.6rem;
+    margin-bottom: 2.8rem;
+    
+}
+.normal, .noLinkHeader, .previewHeader{
+    background-color: #F5B216;
+}
+
+.flash_sale_product_header{
+    background-color: #ff1100;
+    color: #efefef;
+}

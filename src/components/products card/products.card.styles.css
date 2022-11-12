@@ -1,0 +1,12 @@
+.sales-section{
+    background-color: #fff;
+    
+}
+.sales-products{
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 1.2rem;
+    padding: 1.6rem;
+}
+

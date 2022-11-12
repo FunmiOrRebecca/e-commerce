@@ -1,0 +1,36 @@
+.authentication-container{
+    /* background-color: #fff; */
+    display: flex;
+    /* height: 100vh; */
+    /* padding: 2rem; */
+    gap: 4rem;
+    justify-content: center;
+
+}
+
+/* .button{
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding: 2rem;
+    margin: 3rem;
+    width: 350px;
+    background: #ebeef1;
+    cursor: pointer;
+    
+    border: none;
+    border-radius: 50px;
+     background-color: red; 
+    color: #f5b216;
+    text-transform: uppercase;
+    
+    box-shadow:  inset 10px 10px 10px -1px rgba(99, 98, 97, 0.16),
+                inset  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    
+}
+.button:hover{
+    background: #f5b216;
+    color: #212121;
+    box-shadow:   10px 10px 10px -1px rgba(169, 153, 10, 0.16),
+                  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    
+} */

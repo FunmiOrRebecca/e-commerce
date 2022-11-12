@@ -1,0 +1,81 @@
+
+    .carousel-slider{
+        //    background-color: yellow;
+            
+            overflow: hidden;
+            // font-size: 28.8rem;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+            &:hover{
+                .btn-slide{
+                    opacity: 1;
+                }
+                .dots-container{
+                    opacity: 1;
+                }
+            }
+            
+            .slide{
+                position: absolute;
+                opacity: 0;
+                transition: opacity ease-in-out 0.4s;
+                
+            }
+            .btn-slide{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 1.2rem;
+                cursor: pointer;
+                padding: 1.2rem 1.2rem;
+                width: 2rem;
+                height: 2rem;
+                background-color: #fff;
+                border-radius: 50%;
+                border: 1px solid #21212149;
+                opacity: 0; 
+                transition: opacity 0.5s ease-in-out;
+            }
+            .next{
+                right: 20px;
+            }
+            .prev{
+                left: 20px;
+            }
+            .active-slide{
+                opacity: 1;
+            }
+            .dots-container{
+                position: absolute;
+                cursor: pointer;
+                display: flex;
+                gap: 1.2rem;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 1rem;
+                opacity: 0;
+                transition: opacity 0.5s ease-in-out;
+                .dot{
+                    height: 1.2rem;
+                    width: 1.2rem;
+                   background-color: #fff;
+                    border-radius: 50%;
+                    border: 1px solid #f1f1f1;
+                
+                }
+                .active{
+                    background-color: #212121;
+                }
+            }
+        }
+    
+
+ .big{
+    width: 75%;
+}
+
+.small{
+    width: 25%;
+
+}

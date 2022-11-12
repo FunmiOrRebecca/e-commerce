@@ -1,0 +1,21 @@
+.top-brands{
+    background-color: #FFF;
+      margin-bottom: 4.8rem;
+      transition: transform 1s, opacity 1s;
+    
+}
+.top-brands-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(6, 1fr); */
+  padding: 0 1.6rem 0.5rem 1.6rem;
+  margin-bottom: 4.8rem;
+  width: 100%;
+}
+
+
+.top-category{
+
+}
