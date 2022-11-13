@@ -13,7 +13,7 @@ import A from '../../components/a/a';
 const Home = () => {
   
     return(
-         <motion.div initial={{width: 0}} animate={{width: "100%"}} transition={{duration: 0.9}} exit={{width: window.innerWidth}}>    
+         <motion.div initial={{width: 0}} animate={{width: "100%"}} transition={{duration: 0.2}} exit={{width: window.innerWidth}}>    
 
          <MainDisplay />
          <FlashSales />
